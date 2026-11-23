@@ -1,7 +1,7 @@
 # Consumer Financial Complaints Analytics
 ### End-to-End Microsoft Fabric Data Engineering & Analytics Project
 
-[DRAG & DROP: Title Banner — "Consumer Financial Complaints Analytics"]
+<img width="939" height="540" alt="WhatsApp Image 2026-11-23 at 12 30 02 PM" src="https://github.com/user-attachments/assets/ea008764-894c-4910-8bcd-367221aeae57" />
 
 This project transforms nearly 900,000 consumer financial complaints from the Consumer Financial Protection Bureau (CFPB) into a modern analytics platform using Microsoft Fabric, PySpark, Delta Lake, SQL Warehouse, and Power BI.
 
@@ -17,16 +17,14 @@ The project demonstrates practical skills in data engineering, analytics enginee
 
 ## Live Project
 
-🔗 Interactive Dashboard: [Add Link]  
-📓 Bronze to Silver PySpark Notebook: [Add Link]  
-🗄️ Gold Layer SQL Scripts: [Add Link]  
-📄 Project Documentation: [Add Link]  
+🔗 Interactive Dashboard: https://app.fabric.microsoft.com/links/ItRMCSt6Zi?ctid=e0239e4e-d03c-45af-8d39-8e4920dfd982&pbi_source=linkShare&bookmarkGuid=3f2d2efa-5ace-4e64-b752-4413c8481a2f
+
 
 ## Project Overview
 
 The Consumer Financial Protection Bureau (CFPB) maintains a public database of complaints submitted by consumers regarding financial products and services including mortgages, credit reporting, debt collection, bank accounts, credit cards, student loans, and money transfer services.
 
-[DRAG & DROP: Slide — "How a complaint moves through the process"]
+<img width="948" height="540" alt="WhatsApp Image 2026-11-23 at 12 30 02 PM (1)" src="https://github.com/user-attachments/assets/cb5dc1fc-e577-4489-8103-cf7b44d05ac9" />
 
 This project converts that raw operational dataset into a structured analytics solution that answers three business questions:
 
@@ -39,19 +37,26 @@ This project converts that raw operational dataset into a structured analytics s
 ### Interactive Dashboard Preview
 
 #### 1. Complaint Overview
-[DRAG & DROP: Screenshot — "Consumer Complaints Overview.jpg"]
+<img width="1885" height="996" alt="Consumer Complaints Overview" src="https://github.com/user-attachments/assets/53b0d9c5-d05b-472f-ab2e-7aa231d8417c" />
 
 #### 2. Complaint Drivers
-[DRAG & DROP: Screenshot — "Complaint Drivers.jpg"]
+<img width="1338" height="712" alt="Complaint Drivers" src="https://github.com/user-attachments/assets/bc2ae4e4-3c07-461b-83a6-f1319b7844a6" />
+
 
 #### 3. Complaint Resolution
-[DRAG & DROP: Screenshot — "Complaint Resolutions.jpg"]
+<img width="1876" height="1001" alt="Complaint Resolutions" src="https://github.com/user-attachments/assets/d5a32dd8-c40f-40aa-a0ca-c434e369d2a8" />
+
 
 ## Architecture
 
-[DRAG & DROP: Slide — "Our project workflow"]
+<img width="950" height="540" alt="WhatsApp Image 2026-11-23 at 12 30 02 PM (3)" src="https://github.com/user-attachments/assets/d56320a3-d818-413f-b17d-124add9aa77b" />
 
-[DRAG & DROP: Slide — "Microsoft Fabric End-to-End Data Pipeline"]
+
+<img width="3000" height="1380" alt="image" src="https://github.com/user-attachments/assets/870dd537-0574-40c6-a8c8-183072d4ec16" />
+
+<img width="960" height="504" alt="Pipeline" src="https://github.com/user-attachments/assets/4f36beba-db8e-4f09-ab15-51dd5ddf8453" />
+
+
 
 ## Skills Demonstrated
 
@@ -84,9 +89,10 @@ This project converts that raw operational dataset into a structured analytics s
 
 ## Dataset & Data Quality Engineering
 
-[DRAG & DROP: Slide — "Understanding all 18 source columns"]
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/44341404-2f8a-47f5-80c6-2806285930f9" />
 
-[DRAG & DROP: Slide — "One complaint becomes one row"]
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8f3ba115-374d-415c-9820-8f38d508073e" />
+
 
 | Metric | Value |
 | :--- | :--- |
@@ -132,6 +138,6 @@ This project converts that raw operational dataset into a structured analytics s
 
 This repository is licensed under the MIT License.
 
-The CFPB Consumer Complaint dataset is not owned by the author and remains subject to the original terms and conditions published by the Consumer Financial Protection Bureau (CFPB). The raw dataset is not distributed as part of this repository and should be obtained directly from the source.
+The CFPB Consumer Complaint dataset is not owned by the author and remains subject to the original terms and conditions published by the Consumer Financial Protection Bureau (CFPB). The raw dataset is not distributed as part of this repository and should be obtained directly from the source or on kaggle.
 
 Dataset source: https://www.consumerfinance.gov/data-research/consumer-complaints/
