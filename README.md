@@ -17,8 +17,7 @@ The project demonstrates practical skills in data engineering, analytics enginee
 
 ## Live Project
 
-🔗 Interactive Dashboard: https://app.fabric.microsoft.com/links/ItRMCSt6Zi?ctid=e0239e4e-d03c-45af-8d39-8e4920dfd982&pbi_source=linkShare&bookmarkGuid=3f2d2efa-5ace-4e64-b752-4413c8481a2f
-
+🔗 Interactive Dashboard:https://app.fabric.microsoft.com/reportEmbed?reportId=9573030f-07f1-49c5-8692-6aaefbbb091c&autoAuth=true&ctid=e0239e4e-d03c-45af-8d39-8e4920dfd982
 
 ## Project Overview
 
