@@ -36,14 +36,16 @@ This project converts that raw operational dataset into a structured analytics s
 ### Interactive Dashboard Preview
 
 #### 1. Complaint Overview
-<img width="1885" height="996" alt="Consumer Complaints Overview" src="https://github.com/user-attachments/assets/53b0d9c5-d05b-472f-ab2e-7aa231d8417c" />
+<img width="1126" height="607" alt="image" src="https://github.com/user-attachments/assets/b0496136-e4cd-4af0-82c5-24c4a0d2a01f" />
 
 #### 2. Complaint Drivers
-<img width="1338" height="712" alt="Complaint Drivers" src="https://github.com/user-attachments/assets/bc2ae4e4-3c07-461b-83a6-f1319b7844a6" />
+<img width="1135" height="603" alt="image" src="https://github.com/user-attachments/assets/39e4991c-2550-4330-884e-8509961e74d5" />
+
 
 
 #### 3. Complaint Resolution
-<img width="1876" height="1001" alt="Complaint Resolutions" src="https://github.com/user-attachments/assets/d5a32dd8-c40f-40aa-a0ca-c434e369d2a8" />
+<img width="1147" height="607" alt="image" src="https://github.com/user-attachments/assets/885ede54-f956-4a32-9001-376ec35030df" />
+
 
 
 ## Architecture
