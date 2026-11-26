@@ -1,16 +1,17 @@
-# Consumer Financial Complaints Analytics
+<img width="4032" height="1296" alt="image" src="https://github.com/user-attachments/assets/9a29b46a-b2df-4675-84fb-2fe5210153d5" /># Consumer Financial Complaints Analytics
 ### End-to-End Microsoft Fabric Data Engineering & Analytics Project
 
 <img width="939" height="540" alt="WhatsApp Image 2026-11-23 at 12 30 02 PM" src="https://github.com/user-attachments/assets/ea008764-894c-4910-8bcd-367221aeae57" />
 
-This project transforms nearly 900,000 consumer financial complaints from the Consumer Financial Protection Bureau (CFPB) into a modern analytics platform using Microsoft Fabric, PySpark, Delta Lake, SQL Warehouse, and Power BI.
+This project transforms nearly 900,000 consumer financial complaints from the U.S. Consumer Financial Protection Bureau (CFPB) into a modern analytics platform built on Microsoft Fabric.
 
-Starting with a raw CSV dataset, I designed and implemented a complete Bronze-Silver-Gold Medallion Architecture, built a dimensional data model, automated the data pipeline, and developed an interactive Power BI solution that enables users to analyze complaint volumes, complaint drivers, and company response outcomes across the U.S. financial services industry.
+Starting with a raw public dataset, I designed and implemented a complete end-to-end solution encompassing data engineering, analytics engineering, and business intelligence. The solution applies a Bronze-Silver-Gold Medallion Architecture, automated data quality controls, dimensional modelling, and interactive Power BI reporting to uncover consumer complaint patterns, operational performance, and complaint resolution outcomes across the U.S. financial services industry.
 
-The project demonstrates practical skills in data engineering, analytics engineering, data modelling, ETL development, data quality management, business intelligence, dashboard design, and automated reporting.
+The project demonstrates practical capabilities in data engineering, analytics engineering, ETL development, data quality management, dimensional modelling, business intelligence, dashboard design, and automated reporting.
+
 
 ### Executive Highlights
-* **Market Concentration:** Mortgages (26.8%), Credit Reporting (22.1%), and Debt Collection (18.9%) generate **67.8%** of all consumer complaints.
+* **Market Concentration:** Mortgages (26.9%), Credit Reporting (22.1%), and Debt Collection (19.0%) account for approximately 68.0% of all validated consumer complaints.
 * **Digital Shift & Speed:** Web submissions rose from **44.8% (2012)** to **81.5% (2017)**, cutting average company routing time to **3.0 days** vs. **8.2 days** for postal mail.
 * **Timeliness vs. Relief Gap:** Companies respond on time in **97.3%** of cases, yet only **18.8%** result in consumer relief (while **77.9%** close with an explanation alone).
 * **Remediation Impact:** Providing monetary or non-monetary relief cuts consumer dispute rates by more than half (**26.9%** disputed without relief vs. **10.6%–11.6%** with relief).
@@ -58,6 +59,10 @@ This project converts that raw operational dataset into a structured analytics s
 <img width="960" height="504" alt="Pipeline" src="https://github.com/user-attachments/assets/4f36beba-db8e-4f09-ab15-51dd5ddf8453" />
 
 
+<img width="2002" height="2268" alt="image" src="https://github.com/user-attachments/assets/83c07d7f-82b8-4051-97da-98c9958b1f6c" />
+
+
+
 
 ## Skills Demonstrated
 
@@ -102,7 +107,7 @@ This project converts that raw operational dataset into a structured analytics s
 | **Clean Records (Silver)** | 896,931 (99.2%) |
 | **Quarantined Records** | 7,052 (0.8%) |
 | **Date Range** | Dec 2011 – Nov 2017 |
-| **Distinct Companies (Cleaned)** | 4,502 |
+| **Distinct Companies (Cleaned)** | 4,502 (Approx=5k) |
 | **Dashboard Pages** | 3 |
 | **Products Covered** | Mortgage, Credit Reporting, Debt Collection, Credit Cards, Banking, Student Loans and more |
 
@@ -114,10 +119,22 @@ This project converts that raw operational dataset into a structured analytics s
 
 ## Key Results
 
-* **High Concentration:** Analysis of 896,931 validated complaints revealed that Mortgages (241K), Credit Reporting (198K), and Debt Collection (170K) account for **67.8%** of all complaints, while the top five companies account for **34.5%**.
+* **High Concentration:** Analysis of 896,931 validated complaints revealed that Mortgages (241K), Credit Reporting (198K), and Debt Collection (170K) account for approximately 68.0% of all complaints, while the top five companies account for 34.5%.
 * **Maturing Growth & Digital Shift:** Annual complaint volume grew **2.65×** between 2012 (72K) and 2016 (192K), while web submissions climbed from **44.8%** to **81.5%** of total intake.
 * **High Compliance, Low Remediation:** Despite companies responding on time in **97.3%** of cases, only **18.8%** of complaints resulted in consumer relief, while **77.9%** closed with an explanation alone.
-* **Rate-Based Benchmarking:** Complaint volume alone is a poor indicator of service quality—organizations of similar size displayed wide variation in dispute rates, response times, and relief outcomes (e.g., Experian achieved **100.0%** timeliness and **40.0%** relief with an **11.6%** dispute rate, compared to Wells Fargo at **95.2%** timeliness, **14.7%** relief, and **21.8%** disputes).
+* **Rate-Based Benchmarking:** Complaint volume alone is a poor indicator of service quality. Organizations of similar size displayed wide variation in dispute rates, response times, and relief outcomes. For example, Experian achieved 100% timely responses, 40.0% relief, and a 12% dispute rate, compared to Wells Fargo at 95.2% timeliness, 14.7% relief, and 21.8% disputes.
+
+## Business Impact
+The solution enables stakeholders to:
+
+-Monitor consumer complaint trends across products, companies, channels, and geographies.
+-Identify high-volume complaint drivers and emerging consumer issues.
+-Evaluate company performance using timeliness, dispute, and consumer relief metrics.
+-Benchmark financial institutions against industry averages and peer organizations.
+-Support data-driven decision-making through an interactive self-service analytics experience.
+-By combining data engineering, governance, data modelling, and visualization within Microsoft Fabric, the project demonstrates how raw operational data can be transformed into actionable business intelligence.
+
+This project reflects my growing focus on leveraging data, analytics, and AI to transform complex datasets into actionable insights that support strategic decision-making.
 
 ## Technology Stack
 
@@ -128,7 +145,8 @@ This project converts that raw operational dataset into a structured analytics s
 | **Processing** | PySpark |
 | **Storage Format** | Delta Lake |
 | **Data Warehouse** | Fabric Warehouse |
-| **Modelling** | Star Schema (1 Fact, 7 Dimensions) |
+| **Modelling** | Dimensional Model (1 Fact Table, 7 Conformed Dimensions) |
+
 | **Semantic Layer** | Direct Lake |
 | **Reporting** | Power BI |
 | **Orchestration** | Fabric Data Pipeline (`PL_CFPB_EndToEnd`) |
