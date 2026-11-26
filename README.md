@@ -59,8 +59,6 @@ This project converts that raw operational dataset into a structured analytics s
 <img width="960" height="504" alt="Pipeline" src="https://github.com/user-attachments/assets/4f36beba-db8e-4f09-ab15-51dd5ddf8453" />
 
 
-<img width="2002" height="2268" alt="image" src="https://github.com/user-attachments/assets/83c07d7f-82b8-4051-97da-98c9958b1f6c" />
-
 
 
 
@@ -128,13 +126,54 @@ This project converts that raw operational dataset into a structured analytics s
 The solution enables stakeholders to:
 
 -Monitor consumer complaint trends across products, companies, channels, and geographies.
+
+
 -Identify high-volume complaint drivers and emerging consumer issues.
+
+
 -Evaluate company performance using timeliness, dispute, and consumer relief metrics.
+
+
 -Benchmark financial institutions against industry averages and peer organizations.
+
+
 -Support data-driven decision-making through an interactive self-service analytics experience.
+
+
 -By combining data engineering, governance, data modelling, and visualization within Microsoft Fabric, the project demonstrates how raw operational data can be transformed into actionable business intelligence.
 
 This project reflects my growing focus on leveraging data, analytics, and AI to transform complex datasets into actionable insights that support strategic decision-making.
+
+## Solution Architecture
+The solution follows a Medallion Architecture approach within Microsoft Fabric:
+
+* **Bronze Layer**
+  *  Raw CFPB complaint data ingested from source.
+Historical records preserved without transformation.
+Full auditability maintained.
+
+* **Silver Layer**
+Data cleansing and standardisation.
+Quality validation rules applied.
+Invalid records quarantined for investigation.
+Product, issue, company, and location attributes normalized.
+
+* **Gold Layer**
+-Business-ready dimensional model.
+
+-Fact and dimension tables optimized for analytics.
+
+-Direct Lake semantic model for Power BI reporting.
+
+-Reporting Layer
+
+-Interactive Power BI dashboards.
+
+-Executive KPI monitoring.
+
+-Complaint trend analysis.
+
+-Consumer resolution and dispute analytics.
 
 ## Technology Stack
 
