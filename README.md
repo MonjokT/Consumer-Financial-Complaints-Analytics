@@ -153,27 +153,20 @@ The solution follows a Medallion Architecture approach within Microsoft Fabric:
   *  Full auditability maintained.
 
 * **Silver Layer**
-* Data cleansing and standardisation.
-* Quality validation rules applied.
-* Invalid records quarantined for investigation.
-* Product, issue, company, and location attributes normalized.
+   * Data cleansing and standardisation.
+   * Quality validation rules applied.
+   * Invalid records quarantined for investigation.
+   * Product, issue, company, and location attributes normalized.
 
 * **Gold Layer**
--Business-ready dimensional model.
-
--Fact and dimension tables optimized for analytics.
-
--Direct Lake semantic model for Power BI reporting.
-
--Reporting Layer
-
--Interactive Power BI dashboards.
-
--Executive KPI monitoring.
-
--Complaint trend analysis.
-
--Consumer resolution and dispute analytics.
+    *Business-ready dimensional model.
+    *Fact and dimension tables optimized for analytics.
+    *Direct Lake semantic model for Power BI reporting.
+    *Reporting Layer
+    *Interactive Power BI dashboards.
+    *Executive KPI monitoring.
+    *Complaint trend analysis.
+    *Consumer resolution and dispute analytics.
 
 ## Technology Stack
 
