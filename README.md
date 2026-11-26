@@ -1,4 +1,4 @@
-<img width="4032" height="1296" alt="image" src="https://github.com/user-attachments/assets/9a29b46a-b2df-4675-84fb-2fe5210153d5" /># Consumer Financial Complaints Analytics
+
 ### End-to-End Microsoft Fabric Data Engineering & Analytics Project
 
 <img width="939" height="540" alt="WhatsApp Image 2026-11-23 at 12 30 02 PM" src="https://github.com/user-attachments/assets/ea008764-894c-4910-8bcd-367221aeae57" />
@@ -149,14 +149,14 @@ The solution follows a Medallion Architecture approach within Microsoft Fabric:
 
 * **Bronze Layer**
   *  Raw CFPB complaint data ingested from source.
-Historical records preserved without transformation.
-Full auditability maintained.
+  *  Historical records preserved without transformation.
+  *  Full auditability maintained.
 
 * **Silver Layer**
-Data cleansing and standardisation.
-Quality validation rules applied.
-Invalid records quarantined for investigation.
-Product, issue, company, and location attributes normalized.
+* Data cleansing and standardisation.
+* Quality validation rules applied.
+* Invalid records quarantined for investigation.
+* Product, issue, company, and location attributes normalized.
 
 * **Gold Layer**
 -Business-ready dimensional model.
